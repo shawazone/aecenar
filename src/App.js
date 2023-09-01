@@ -1,16 +1,15 @@
+import logo from './logo.svg';
+
+import Aecenar from './Aecenar.jpg'
 import './App.css';
 import SideNav from './SideNav';
+
 function App() {
   return (
     <div className="App">
-     <div>
-
-      <img src='' className="" alt="" />
-      <button></button>
-     
-
-     </div>
-      <SideNav />
+       <img src={Aecenar}></img>
+      <button> login</button>
+    <SideNav></SideNav>
     </div>
   );
 }
