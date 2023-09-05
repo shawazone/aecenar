@@ -6,10 +6,16 @@ import SideNav from './SideNav';
 
 function App() {
   return (
-    <div className="App">
+    <div className='App'>
+      <div>
+
        <img src={Aecenar}></img>
       <button> login</button>
+      </div>
+      
+       <div>
     <SideNav></SideNav>
+        </div> 
     </div>
   );
 }
